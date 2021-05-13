@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*navbar*/
+
+nav{
+    /*border: 2px solid red;*/
+    text-align: center;
+    background-color: antiquewhite;
+    background: linear-gradient(-45deg,rgb(247, 206, 152),white,rgb(241, 193, 131));
+}
+
+
+#nav_elements {
+    /*border: 2px solid yellow;*/
+    display: inline-block;
+    margin: 22px;
+}
+
+#nav_elements a{
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: 'Lexend Mega', sans-serif;
+
+}
+
+#nav_elements a:hover{
+    color: rgb(199, 13, 13);
+}
+
+/*Intro Part*/
+
+#introduction{
+    /*border: 2px solid rgb(44, 5, 5);*/
+    background: url(../img/alexander-ant-eQgXSUmZbuU-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 808px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+#greet{
+    /*border: 2px solid rgb(105, 101, 101);*/
+    display: inline-block;
+    /* margin: 24px; */
+    margin-top: 188px;
+    background: linear-gradient(-45deg,rgb(235, 138, 138),white,rgb(235, 140, 140));
+    /* position: fixed; */
+    color: #070607;
+    /* font-style: normal; */
+    font-size:28px;
+    opacity: 0.9;
+    border-radius: 18px;
+    
+}
+
+
+#name{
+   /* border: 2px solid rgb(71, 67, 67);*/
+    display: inline-block;
+    margin-top: 27px;
+    margin-left: 0px;
+    text-align: center;
+    /* position: fixed; */
+    background: linear-gradient(-45deg,rgb(235, 138, 138),white,rgb(235, 140, 140));
+    font-family: 'Cabin', sans-serif;
+    font-size: 93px;
+    width: 384px;
+    opacity: 0.9;
+    border-radius: 24px;
+}
+
+/*My journey part*/
+
+#journey{
+    /*border: 2px solid rgb(236, 191, 191);*/
+    height: 1240px;
+    transition-property: background-color;
+    transition-duration: 1s;
+   
+}
+
+#journey:hover{
+    background-color: rgb(231, 191, 191);
+}
+
+#header{
+    font-family: 'Lexend Mega', sans-serif;
+    text-align: center;
+}
+
+#header h1{
+    display: inline-block;
+
+   margin-top: 51px;
+    font-size: 54px;
+}
+
+#school{
+    margin-top: 63px;
+   
+    text-align: center;
+}
+
+#school h1{
+    display: inline-block;
+    font-size: 30px;
+   
+    font-family: 'Sriracha', cursive;
+}
+
+#aboutSchool{
+   /* border: 2px solid red;*/
+    height: 358px;
+    color: rgb(10, 10, 10);
+    /* margin-left: 338px; */
+    margin: auto;
+    width: 40%;
+    margin-top: 28px;
+    background: url('../img/school.jpg') no-repeat center center ;
+    background-size: cover;
+    font-weight: 500;
+    font-size: 22px;
+    overflow-y: scroll;
+    font-family: 'Roboto', sans-serif;
+}
+
+#college{
+     /*border: 2px solid red;*/
+     text-align: center;
+}
+
+#college h1{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 53px;
+    font-family: 'Sriracha', cursive;
+}
+#aboutCollege{
+   /*border: 2px solid red;*/
+   height: 358px;
+   color: rgb(245, 240, 240);
+   /* margin-left: 338px; */
+   margin: auto;
+   width: 40%;
+   margin-top: 28px;
+   font-size: 22px;
+    overflow-y: scroll;
+    background: url('../img/clg.jpg') no-repeat center center;
+    background-size: cover;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*More About ME*/
+
+#more{
+    /*border: 2px solid red;*/
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-color: white;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
+#more:hover{
+
+background-color: rgb(231, 191, 191); 
+}
+
+#more h1{
+ display: inline-block;
+ margin-top: 65px;
+ 
+ font-size: 54px;
+ font-family: 'Lexend Mega', sans-serif;
+}
+#myFramework{
+
+}
+
+#myFramework h1{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 53px;
+    font-family: 'Sriracha', cursive;
+}
+
+#aboutFramework{
+   
+   /*border:2px solid red; */
+    width: 40%;
+   margin: auto;
+   margin-top: 28px;
+   height: 358px;
+   font-size: 22px;
+   font-weight: 500;
+   font-family: 'Dancing Script', cursive;
+
+}
+
+#footer{
+   /* border: 2px solid red;*/
+    text-align: center;
+    height: 521px;
+    background: linear-gradient(-45deg,rgb(245, 135, 135),white,rgb(245, 135, 135));
+}
+
+#footer h1{
+    display: inline-block;
+    margin-top: 65px;
+    
+    font-size: 54px;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
